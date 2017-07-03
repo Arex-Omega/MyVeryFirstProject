@@ -22,6 +22,7 @@ div.container{
     margin: 5px;
     width: 97%;
     height: 89%;
+    border: 2px solid #4c3c13;
 }
 div.name {
     height: 50px;
@@ -48,6 +49,30 @@ table.status .value{
     font-family: 'Comic Sans MS';
 }
 table.status tr:nth-child(odd) {background: #bca78c}
+ul.equiped-items{
+    font-size: 24px;
+    margin: 15px;
+    list-style: none;
+    padding-left: 20px;
+
+}
+.normal-item img {
+    position: absolute;
+    left: 0;
+    width: 30px;
+}
+.weird-item div {
+    position: absolute;
+}
+.weird-item img {
+    position: absolute;
+    top: -15px;
+    left: -53px;
+    width: 60px;
+}
+.unique{
+    color: green;
+}
 
 tr.title th{
     font-size: 34px;
@@ -86,14 +111,6 @@ div.aptitude {
     height: 40vh;
     background-color: #67533a;
     margin: 2px;
-}
-
-.row
-{
-    /*display: table;
-    width: 100%;
-    table-layout: fixed;
-    height: 80vh;*/
 }
 .column
 {
