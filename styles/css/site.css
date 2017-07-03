@@ -1,0 +1,102 @@
+body {    
+    font-family: 'Comic Sans MS';
+}
+td.value {
+    text-align: right;
+}
+body.x {
+    background: url(../images/base.png);
+}
+div.temp {
+    border: 1px solid black;
+    height: 90vh;
+    margin: 30px;
+}
+.borders {
+    border: 1px solid red;
+}
+div.container{
+    background-color: #e9dcb9;
+    position: absolute;
+    top: 45px;
+    margin: 5px;
+    width: 97%;
+    height: 89%;
+}
+div.name {
+    height: 50px;
+    color: white;
+    font-size: 32px;
+    padding: 2px;
+    padding-left: 30px;
+}
+div.main-data{
+    display: inline;
+    position: absolute;
+    top: 0;
+}
+.main-data table{
+    font-weight: bold;
+}
+table.status{
+    width: 100%;
+    font-family: 'Georgia';
+    border-spacing: 0;
+}
+table.status .value{
+    font-weight: bold;
+    font-family: 'Comic Sans MS';
+}
+table.status tr:nth-child(odd) {background: #bca78c}
+
+tr.title th{
+    font-size: 34px;
+}
+div.status {
+    position: relative;
+    width: 40%;
+    height: 80vh;
+    background-color: #67533a;
+    margin: 2px;
+}
+div.center {
+    position: relative;
+    top: 40px;
+    width: 40%;
+    height: 73vh;
+    margin: 2px;
+}
+div.extra-data {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background-color: #67533a;
+}
+div.mode {
+    position: absolute;
+    bottom: 0px;
+    width: 40%;
+    height: 8vh;
+    background-color: blue;
+}
+div.aptitude {
+    position: relative;
+    top: 40px;
+    width: 15%;
+    height: 40vh;
+    background-color: #67533a;
+    margin: 2px;
+}
+
+.row
+{
+    /*display: table;
+    width: 100%;
+    table-layout: fixed;
+    height: 80vh;*/
+}
+.column
+{
+    float: left;
+    /*display: table-cell;*/ /*Optional*/
+}
